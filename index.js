@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 async function main() {
-  const uri = "mongodb://localhost:27017/?readPreference=primary&ssl=false";
+  const uri = "mongodb+srv://SujitSingh:UncleSam2811@cluster0.klmab.mongodb.net/retryWrites=true&w=majority";
 
   const client = new MongoClient(uri);
   let count = 0;
@@ -33,7 +33,7 @@ async function main() {
     });
 
     app.listen(port, () => {
-      console.log(`Command Module listening at http://localhost:${port}`);
+      console.log(`Command Module listening at ${port}`);
     });
   } catch (e) {
     console.error(e);
