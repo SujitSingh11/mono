@@ -1,0 +1,16 @@
+{
+  "name": "mono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Sujit Singh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongodb": "^4.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
