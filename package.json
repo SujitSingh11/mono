@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Sujit Singh",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.2",
-    "mongodb": "^4.2.2",
-    "nodemon": "^2.0.15"
+    "mongodb": "^4.2.2"
   }
 }
